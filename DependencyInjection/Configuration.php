@@ -1,5 +1,5 @@
 <?php
-namespace Yogradac\FbMessengerApiBundle\DependencyInjection;
+namespace Yogradac\FbMessengerBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
