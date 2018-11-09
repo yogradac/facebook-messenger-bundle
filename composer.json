@@ -1,0 +1,30 @@
+{
+  "name": "yogradac/facebook-messenger-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony Facebook Messenger Bundle",
+  "keywords": ["symfony", "symfony-bundle", "bundle", "facebook", "messenger"],
+  "homepage": "https://github.com/yogradac/facebook-messenger-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yoann Gauchard",
+      "email": "yogradac@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "symfony/framework-bundle": "~3.0",
+    "kerox/messenger": "^3.1"
+  },
+  "require-dev": {
+
+  },
+  "suggest": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Yogradac\\FacebookMessengerBundle\\": ""
+    }
+  }
+}
