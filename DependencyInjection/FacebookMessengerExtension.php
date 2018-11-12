@@ -18,7 +18,7 @@ class FacebookMessengerExtension extends Extension
     {
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
-        $container->setParameter('facebook_messenger.access_token', $config['access_token']);
+        $container->setParameter('facebook_messenger.app_secret', $config['app_secret']);
         $container->setParameter('facebook_messenger.verify_token', $config['verify_token']);
         $container->setParameter('facebook_messenger.page_token', $config['page_token']);
         $container->setParameter('facebook_messenger.api_version', $config['api_version']);

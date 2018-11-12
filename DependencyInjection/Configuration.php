@@ -19,7 +19,7 @@ class Configuration implements ConfigurationInterface
         $rootNode = $treeBuilder->root('facebook_messenger');
         $rootNode
             ->children()
-            ->scalarNode('access_token')->end()
+            ->scalarNode('app_secret')->end()
             ->scalarNode('verify_token')->end()
             ->scalarNode('page_token')->end()
             ->scalarNode('api_version')->end()
