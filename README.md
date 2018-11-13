@@ -33,7 +33,7 @@ Add this to config.yml:
 
 ```yaml
 facebook_messenger:
-    access_token:   %facebook_messenger_access_token%
+    app_secret:     %facebook_messenger_app_secret%
     verify_token:   %facebook_messenger_verify_token%
     page_token:     %facebook_messenger_page_token%
     api_version:    %facebook_messenger_api_version%
