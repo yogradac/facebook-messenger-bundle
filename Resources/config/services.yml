@@ -2,7 +2,7 @@ services:
     facebook_messenger.messenger:
         class: Kerox\Messenger\Messenger
         arguments:
-            $app_secret:   %facebook_messenger.app_secret%,
-            $verify_token: %facebook_messenger.verify_token%
-            $page_token:   %facebook_messenger.page_token%
-            $api_version:  %facebook_messenger.api_version%
+            $appSecret:   %facebook_messenger.app_secret%,
+            $verifyToken: %facebook_messenger.verify_token%
+            $pageToken:   %facebook_messenger.page_token%
+            $apiVersion:  %facebook_messenger.api_version%
