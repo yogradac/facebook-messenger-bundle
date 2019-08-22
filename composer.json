@@ -14,7 +14,7 @@
   "require": {
     "php": ">=7.1",
     "symfony/framework-bundle": "~3.0",
-    "kerox/messenger": "^3.1"
+    "kerox/messenger": "^3.2"
   },
   "require-dev": {
 
